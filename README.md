@@ -9,7 +9,7 @@ The project structure is as follows:
 - `raw_data`: contains the raw data files downloaded from the link provided in the instruction.
 - `pt_data`: contains the .pt files generated from the raw data files. The generation process is described in the `integration.ipynb` notebook.
 - `environment.yml`: contains the conda environment specification.
-- `integration.ipynb`: contains the data integration steps.
+- `integration.ipynb`: contains the **detailed** data integration steps.
 - `train.py`: contains the training script.
 
 ## Reproducibility
