@@ -1,6 +1,16 @@
-# RQ2: Programming
+# Question 2: Programming
 
-This is the project for RQ2: Programming.
+This is the project for Question 2: Programming.
+
+## Project Structure
+
+The project structure is as follows:
+
+- `raw_data`: contains the raw data files downloaded from the link provided in the instruction.
+- `pt_data`: contains the .pt files generated from the raw data files. The generation process is described in the `integration.ipynb` notebook.
+- `environment.yml`: contains the conda environment specification.
+- `integration.ipynb`: contains the data integration steps.
+- `train.py`: contains the training script.
 
 ## Reproducibility
 
@@ -25,18 +35,6 @@ python train.py
 You can also run the `integration.ipynb` notebook to reproduce the data integration steps.
 
 I've validated the above steps on a Windows 11 machine with conda 23.1.0 installed to make sure the environment is reproducible.
-
-## Solution
-
-### Data Structure
-
-I would like to describe the data structure of the project as follows:
-
-- `raw_data`: contains the raw data files downloaded from the link provided in the instruction.
-- `pt_data`: contains the .pt files generated from the raw data files. The generation process is described in the `integration.ipynb` notebook.
-- `environment.yml`: contains the conda environment specification.
-- `integration.ipynb`: contains the data integration steps.
-- `train.py`: contains the training script.
 
 ### Data Integration Highlights
 
